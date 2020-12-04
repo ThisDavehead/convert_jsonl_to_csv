@@ -6,7 +6,7 @@ Note: This script was written with my Windows environment in mind.
 How to use:
 1) Edit this script's input path to where all your jsonl files are.
 2) Edit this script's output path to where you want all your csv files to go.
-3) Make sure the separators used in the path names match the separator used in the name.split expression (line 22). I used '\\'.
+3) Make sure the separators used in the path names match the separator used in the name.split expression (line 22). I used '\\\\'.
 4) Run 'python convert_jsonl_to_csv.py'
 5) Your files should be converted relatively quickly. It only took me a few minutes to convert 15 jsonl files (8GB total).
 
