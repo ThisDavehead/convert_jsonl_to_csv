@@ -13,15 +13,15 @@ How to use:
 
 Each .jsonl file will have a corresponding .csv file written for it. For example:
 
-Input Directory:
-    ex1.jsonl
-    ex2.jsonl
-    ex3.jsonl
+*Input Directory:
+    *ex1.jsonl
+    *ex2.jsonl
+    *ex3.jsonl
 
-Output Directory (after running):
-    ex1.csv
-    ex2.csv
-    ex3.csv
+*Output Directory (after running):
+    *ex1.csv
+    *ex2.csv
+    *ex3.csv
 
     
 Inside each jsonl file is one dictionary per line. These dictionaries all have the the same keys, but different values.
