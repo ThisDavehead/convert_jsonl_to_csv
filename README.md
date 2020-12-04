@@ -10,31 +10,23 @@ How to use:
 4) Run 'python convert_jsonl_to_csv.py'
 5) Your files should be converted relatively quickly. It only took me a few minutes to convert 15 jsonl files (8GB total).
 
+
 Each .jsonl file will have a corresponding .csv file written for it. For example:
 
 Input Directory:
-
-ex1.jsonl
-
-ex2.jsonl
-
-ex3.jsonl
+    ex1.jsonl
+    ex2.jsonl
+    ex3.jsonl
 
 Output Directory (after running):
-
-ex1.csv
-
-ex2.csv
-
-ex3.csv
+    ex1.csv
+    ex2.csv
+    ex3.csv
 
     
 Inside each jsonl file is one dictionary per line. These dictionaries all have the the same keys, but different values.
-
 This script takes the first line's keys and writes them to the first row of the .csv file (the headers, so to speak).
-
 Then it writes the first line's values to the second row of the .csv file (first record copied).
-
 Then it writes every subsequent line's values to the subsequent row of the .csv file (all other records copied).
  
  
