@@ -11,7 +11,7 @@ import csv
 input_path = 'PATH_TO_DIRECTORY_CONTAINING_JSONL_FILES_USING_\\_SEPARATORS\\'
 # Make an array of all jsonl files in the input path.
 files = [f for f in glob.glob(input_path + "**/*.jsonl", recursive=True)]
-# Path of json output files.
+# Path of csv output files.
 output_path = 'PATH_TO_TARGET_CSV_DIRECTORY_USING_\\_SEPARATORS\\'
 
 # For each input file:
